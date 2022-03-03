@@ -45,3 +45,6 @@ a {
 .header_content a:hover {
   color: var(--main-color);
 }
+
+.spaces { background-color: var(--main-color);
+height: 418px;}
