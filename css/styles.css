@@ -80,4 +80,10 @@ header {
 .card2 p { color: var(--third-color);}
 
 footer { background-color: var(--color-black);
-height: 262px;}
+height: 262px;
+display: flex;
+justify-content: center;
+align-items: center;}
+.footer_container .ajuste { display: flex;
+align-items: center;}
+.footer_container a { color: var(--color-white);}
