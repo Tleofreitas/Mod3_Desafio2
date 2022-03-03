@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap');
+
+:root {
+  --main-color: #222374;
+  --secondary-color: #F03C42;
+  --third-color: #CCCCCC;
+  --color-white: white;
+  --color-black: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
