@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap");
 
 :root {
   --main-color: #222374;
-  --secondary-color: #F03C42;
-  --third-color: #CCCCCC;
+  --secondary-color: #f03c42;
+  --third-color: #cccccc;
   --color-white: white;
   --color-black: black;
 }
@@ -18,4 +18,30 @@ a,
 a:hover {
   text-decoration: none;
   color: unset;
+}
+
+header {
+  background-color: var(--secondary-color);
+  color: var(--color-white);
+}
+.header_container {
+  margin: 0 auto;
+  width: 960px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+}
+
+.header_content,
+a {
+  margin: 10px;
+}
+.header_content a:hover {
+  color: var(--main-color);
 }
