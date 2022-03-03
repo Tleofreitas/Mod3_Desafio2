@@ -78,3 +78,18 @@ header {
   }
 .card2 h3 { color: var(--color-white); padding: 20px 0 0 20px;}
 .card2 p { color: var(--third-color);}
+
+footer { background-color: var(--color-black);
+height: 262px;
+display: flex;
+justify-content: center;
+align-items: center;}
+.footer_container .ajuste { display: flex;
+    justify-content: center;
+align-items: center;}
+.footer_container a { color: var(--color-white);}
+.footer_container p { color: var(--color-white);
+display: flex;
+justify-content: center;
+padding: 0;}
+.footer_container .ajuste2 {margin: 20px;}
