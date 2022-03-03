@@ -78,3 +78,6 @@ header {
   }
 .card2 h3 { color: var(--color-white); padding: 20px 0 0 20px;}
 .card2 p { color: var(--third-color);}
+
+footer { background-color: var(--color-black);
+height: 262px;}
