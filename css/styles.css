@@ -37,9 +37,7 @@ header {
   align-items: center;
 }
 
-.header_content, a {
-  margin: 10px;
-}
+.header_content, a {margin: 10px;}
 .header_content a:hover {
   color: var(--main-color);
 }
@@ -58,9 +56,7 @@ header {
 
 .components h2 { padding: 15px 0;}
 
-.components .card {
-    margin: 20px auto;
-}
+.components .card {margin: 20px auto;}
 .card {
   background-color: var(--third-color);
   width: 960px;
@@ -70,3 +66,15 @@ header {
 
 .card h3, p { color: var(--color-black); padding: 15px;
 }
+
+.color { color: var(--secondary-color);}
+
+.card2 {
+    background-color: var(--main-color);
+    width: 960px;
+    height: 106px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+.card2 h3 { color: var(--color-white); padding: 20px 0 0 20px;}
+.card2 p { color: var(--third-color);}
